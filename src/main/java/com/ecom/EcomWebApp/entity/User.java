@@ -17,7 +17,7 @@ public class User {
     private String password;
     private String name;
     private UserRole userRole;
-    //dfdfdfdfdf
+
 
     @Lob
     @Column(columnDefinition = "longblob")
