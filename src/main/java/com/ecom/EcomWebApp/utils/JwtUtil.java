@@ -17,7 +17,7 @@ import java.util.function.Function;
 @Component
 public class JwtUtil {
 
-    public static final String SECRET="sdecom123456789";
+    public static final String SECRET="yourLongAndSecureSecretKeyHereThatIsAtLeast32CharactersLong";
 
     public String generateToken(String username){
         Map<String, Object> claims=new HashMap<>();
